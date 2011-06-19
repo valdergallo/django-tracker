@@ -32,6 +32,7 @@ Este aplicativo registra os acessos do site, com a possibilidade de filtrá-los.
 A minha ideia é um aplicativo completo com relatórios e gráficos dos acessos para o admin do Django.
 
 # FEATURE
-* Add chart report
+* Add chart
 * Add dashboard
 * Add geo data options
+* Create TDD
