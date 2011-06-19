@@ -1,5 +1,5 @@
 # This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. To view a  copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 444  Castro Street, Suite 900, Mountain View, California, 94041, USA.
-# Date: 19/06/2011
+# Date: 19/09/2010
 # Author: Valder Gallo
 # E-mail: valdergallo@gmail.com
 # encoding: utf-8
@@ -18,7 +18,6 @@ def check_track(full_path):
 
 
 class TrackerMiddleware(object):
-
     def process_response(self, request, response):
         full_path = request.get_full_path()
         if check_track(full_path):

@@ -6,8 +6,6 @@
     Track actions by Valder Gallo valdergallo@gmail.com
 """
 
-from models import *
-
 class GoogleAnalyticsMiddleware(object):
     def __init__(self):
         """
